@@ -1,0 +1,44 @@
+.title {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.titleImg {
+  height: 100px;
+  object-fit: contain;
+}
+.calendar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+.calendarForm {
+  margin: 20px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+.calendarForm > input {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightgrey;
+  padding: 5px;
+}
+.calendar > button {
+  border: none;
+  padding: 10px;
+  background-color: #00b775;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.calendar > button:hover {
+  color: "00b775";
+  background-color: lightgray;
+}
